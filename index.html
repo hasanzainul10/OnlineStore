@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Online Apparel Store</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+	<!--<link rel="stylesheet" href="https://m.w3newbie.com/you-tube.css">-->
+	</script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+  body{
+    background:#f5f5f5;
+    margin-top:20px;}
+
+.card-img-tiles {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    background-color: #fff;
+    z-index: 5
+}
+
+.card-img-tiles .main-img>img,
+.card-img-tiles .thumblist>img {
+    display: block;
+    width: 100%
+}
+
+.card-img-tiles .main-img {
+    width: 67%;
+    padding-right: .375rem
+}
+
+.card-img-tiles .thumblist {
+    width: 33%;
+    padding-left: .375rem
+}
+
+.card-img-tiles .thumblist>img {
+    margin-bottom: .75rem
+}
+
+.card-img-tiles .thumblist>img:last-child {
+    margin-bottom: 0
+}
+
+.mb-grid-gutter {
+    margin-bottom: 30px !important;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Online Apparel Store</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Register/Login</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Cart</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Category
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="clothing.html">Clothings</a>
+          <a class="dropdown-item" href="#">Shoes</a>
+          <a class="dropdown-item" href="#">Hats</a>
+          <a class="dropdown-item" href="#">Bags</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">About Us</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+
+  </div>
+</nav>
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner" role="listbox" style=" width:100%; height: 700 px !important;">
+    <div class="carousel-item active">
+      <img src="img/slider/bg.jpg" alt="Los Angeles">
+     
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider/bg1.jpg" alt="Chicago">
+    </div>
+    <div class="carousel-item">
+      <img src="img/slider/bg2.jpg" alt="New York">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+  <p></p>
+
+<!--product category-->
+<div class="container pb-5 mb-sm-1">
+    <!-- Categories grid-->
+    <div class="row">
+        <!-- Category-->
+        <div class="col-md-4 col-sm-6">
+            <div class="card border-0 mb-grid-gutter">
+                <a class="card-img-tiles" href="shop-style1-ls.html">
+                    <div class="main-img"><img src="https://via.placeholder.com/340x326/FF8C00/000000" alt="Clothing"></div>
+                    <div class="thumblist"><img src="https://via.placeholder.com/175x164/FF8C00/000000" alt="Clothing"><img src="https://via.placeholder.com/175x164/FF8C00/000000" alt="Clothing"></div>
+                </a>
+                <div class="card-body border mt-n1 py-4 text-center">
+                    <h2 class="h5 mb-1">Clothing</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">$49.99</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="clothing.html">Shop clothing</a>
+                </div>
+            </div>
+        </div>
+        <!-- Category-->
+        <div class="col-md-4 col-sm-6">
+            <div class="card border-0 mb-grid-gutter">
+                <a class="card-img-tiles" href="shop-style1-ls.html">
+                    <div class="main-img"><img src="https://via.placeholder.com/340x326/8A2BE2/000000" alt="Shoes"></div>
+                    <div class="thumblist"><img src="https://via.placeholder.com/175x164/8A2BE2/000000" alt="Shoes"><img src="https://via.placeholder.com/175x164/8A2BE2/000000" alt="Shoes"></div>
+                </a>
+                <div class="card-body border mt-n1 py-4 text-center">
+                    <h2 class="h5 mb-1">Shoes</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">$56.00</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="shop-style1-ls.html">Shop shoes</a>
+                </div>
+            </div>
+        </div>
+        <!-- Category-->
+        <div class="col-md-4 col-sm-6">
+            <div class="card border-0 mb-grid-gutter">
+                <a class="card-img-tiles" href="shop-style1-ls.html">
+                    <div class="main-img"><img src="https://via.placeholder.com/340x326/6495ED/000000" alt="Bags"></div>
+                    <div class="thumblist"><img src="https://via.placeholder.com/175x164/6495ED/000000" alt="Bags"><img src="https://via.placeholder.com/175x164/6495ED/000000" alt="Bags"></div>
+                </a>
+                <div class="card-body border mt-n1 py-4 text-center">
+                    <h2 class="h5 mb-1">Bags</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">$27.00</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="shop-style1-ls.html">Shop bags</a>
+                </div>
+            </div>
+        </div>
+        <!-- Category-->
+        <div class="col-md-4 col-sm-6">
+            <div class="card border-0 mb-grid-gutter">
+                <a class="card-img-tiles" href="shop-style1-ls.html">
+                    <div class="main-img"><img src="https://via.placeholder.com/340x326/FF7F50/000000" alt="Sunglasses"></div>
+                    <div class="thumblist"><img src="https://via.placeholder.com/175x164/FF7F50/000000" alt="Sunglasses"><img src="https://via.placeholder.com/175x164/FF7F50/000000" alt="Sunglasses"></div>
+                </a>
+                <div class="card-body border mt-n1 py-4 text-center">
+                    <h2 class="h5 mb-1">Sunglasses</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">$35.99</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="shop-style1-ls.html">Shop sunglasses</a>
+                </div>
+            </div>
+        </div>
+        <!-- Category-->
+        <div class="col-md-4 col-sm-6">
+            <div class="card border-0 mb-grid-gutter">
+                <a class="card-img-tiles" href="shop-style1-ls.html">
+                    <div class="main-img"><img src="https://via.placeholder.com/340x326/008B8B/000000" alt="Hats"></div>
+                    <div class="thumblist"><img src="https://via.placeholder.com/175x164/008B8B/000000" alt="Hats"><img src="https://via.placeholder.com/175x164/008B8B/000000" alt="Hats"></div>
+                </a>
+                <div class="card-body border mt-n1 py-4 text-center">
+                    <h2 class="h5 mb-1">Hats</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">$14.50</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="shop-style1-ls.html">Shop hats</a>
+                </div>
+            </div>
+        </div>
+        <!-- Category-->
+        <div class="col-md-4 col-sm-6">
+            <div class="card border-0 mb-grid-gutter">
+                <a class="card-img-tiles" href="shop-style1-ls.html">
+                    <div class="main-img"><img src="https://via.placeholder.com/340x326/9932CC/000000" alt="Gloves"></div>
+                    <div class="thumblist"><img src="https://via.placeholder.com/175x164/9932CC/000000" alt="Gloves"><img src="https://via.placeholder.com/175x164/9932CC/000000" alt="Gloves"></div>
+                </a>
+                <div class="card-body border mt-n1 py-4 text-center">
+                    <h2 class="h5 mb-1">Gloves</h2><span class="d-block mb-3 font-size-xs text-muted">Starting from <span class="font-weight-semibold">$10.45</span></span><a class="btn btn-pill btn-outline-primary btn-sm" href="shop-style1-ls.html">Shop accessories</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
